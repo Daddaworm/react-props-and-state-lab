@@ -54,7 +54,7 @@ descendants:
 
 3. `<Filters />` needs a **callback** prop, `onFindPetsClick`. When the
    `<Filters />` component calls `onFindPetsClick`, `<App />` should fetch a
-   list of pets using `fetch()`.
+   list of pets using `fetch()`. 
 
   - Assuming your app is up and running, you can make a fetch to this exact URL:
     `/api/pets` with an **optional query parameter** to get your data.
